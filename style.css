@@ -11,6 +11,17 @@ body {
 }
 
 header {
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;       /* Supaya gambar memenuhi layar */
+  background-position: center;  /* Posisi gambar di tengah */
+  background-repeat: no-repeat; /* Jangan diulang */
+  background-attachment: fixed; /* Background tidak bergeser saat scroll */
+  font-family: Arial, sans-serif;
+  color: #fff;                  /* Warna teks supaya kontras */
+  margin: 0;
+  padding: 0;
+}
   background-color: #f4f4f4;
   padding: 20px;
   text-align: center;
