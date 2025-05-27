@@ -1,3 +1,4 @@
+header {
 body {
   background-image: url('images/background.jpg');
   background-size: cover;       
@@ -5,20 +6,7 @@ body {
   background-repeat: no-repeat; 
   background-attachment: fixed; 
   font-family: Arial, sans-serif;
-  color: #fff;                  
-  margin: 0;
-  padding: 0;
-}
-
-header {
-body {
-  background-image: url('images/background.jpg');
-  background-size: cover;       /* Supaya gambar memenuhi layar */
-  background-position: center;  /* Posisi gambar di tengah */
-  background-repeat: no-repeat; /* Jangan diulang */
-  background-attachment: fixed; /* Background tidak bergeser saat scroll */
-  font-family: Arial, sans-serif;
-  color: #fff;                  /* Warna teks supaya kontras */
+  color: #fff;
   margin: 0;
   padding: 0;
 }
